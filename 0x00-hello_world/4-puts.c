@@ -1,7 +1,8 @@
 #include <stdio.h>
 /**
- * Main void function
- * Returne sucess values
+ * main - Entry point
+ *
+ * Returne: Always 0 (sucess)
  */
 int main(void)
 {
