@@ -2,9 +2,9 @@
 
 /**
  *
- * main - Entry point
+ *main - Entry point
  *
- * Return: Always 0 (success)
+ *Return: 0 after a function is 1 o Success.
  */
 int main(void)
 {
