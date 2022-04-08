@@ -3,24 +3,25 @@
 #include <stdio.h>
 
 /**
- * mian - Entry point
+ *mian - Entry point
  *
- * Return: Always 0 (success/correct)
+ *Return: Always 0 (success/correct)
  */
+
 int main(void)
+
 {
 	int n;
 
 	srand(time(0));
-	n= rand() - RAND_MAX /2;
+	n = rand() - RAND_MAX /2;
 
-	if (n==0)
+	if (n == 0)
 	{
 	  printf("%i is zero\n", n);
-
 	}
 
-	else if(n<0)
+	else if (n<0)
 	{
 	 printf("%i is negative\n", n);
 	}
