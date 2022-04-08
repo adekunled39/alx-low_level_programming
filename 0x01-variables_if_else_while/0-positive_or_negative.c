@@ -3,33 +3,34 @@
 #include <stdio.h>
 
 /**
- *mian - Entry point
- *
- *Return: Always 0 (success/correct)
- */
+*mian - Entry point
+*
+*Return: Always 0 (success/correct)
+*/
 
 int main(void)
 
 {
 	int n;
 
-	srand(time(0));
-	n = rand() - RAND_MAX /2;
+srand(time(0));
+n = rand() - RAND_MAX /2;
 
-	if (n == 0)
-	{
-	  printf("%i is zero\n", n);
-	}
+if (n == 0)
+{
+printf("%i is zero\n", n);
+}
 
-	else if (n<0)
-	{
-	 printf("%i is negative\n", n);
-	}
+else if (n<0)
+{
+printf("%i is negative\n", n);
+}
 
-	else
-	{
-	printf("%i is positive\n", n);
-	}
+else
+{
+printf("%i is positive\n", n);
+}
 
-	return (0);
+return (0);
+
 }
