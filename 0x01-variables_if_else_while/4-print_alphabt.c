@@ -1,9 +1,9 @@
 #include <stdio.h>
 /**
- * main - Entry point of code
- *
- * Return: Alwyaes return o for us 
- */
+*main - Entry point of code
+*
+*Return: Alwyaes return o for us 
+*/
 int main(void)
 {
 char lowercase;
