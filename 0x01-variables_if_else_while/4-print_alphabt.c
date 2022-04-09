@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
-*main - Entry point of code
+*main -Entry point
 *
-*Return: Alwyaes return o for us 
+* Return: Always 0 (success/correction)
 */
 int main(void)
 {
