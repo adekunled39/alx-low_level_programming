@@ -6,18 +6,19 @@
  */
 int main(void)
 {
-char game2;
-for (game2 = 'a'; game2 <= 'z'; game2++)
+char lowercase;
+for (lowercase  = 'a'; lowercase <= 'z'; lowercase++)
 {
-if (game2 == 'q')
+if (lowercase == 'q')
 continue;
 
-else if (game2 == 'e')
+else if (lowercase == 'e')
 continue;
 
-putchar(game2);
+putchar(lowercase);
 }
 
 putchar('\n');
 
 return (0);
+}
