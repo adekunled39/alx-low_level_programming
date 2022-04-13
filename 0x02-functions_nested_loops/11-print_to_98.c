@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
-*print_to_98: Print all natural number free input to 9.*
+*print_to_98: Print all natural number free input to 98*in order seprated by a comma followed by a space.
 *@n: the number to begin counting at.
 */
 void print_to_98(int n)
