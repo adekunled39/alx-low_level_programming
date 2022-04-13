@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
-*jack_bower - Prints every minute of the day of
-*jack Bower, starting from 00:00 to 23:59.
+*jack_bauer - Prints every minute of the day of
+*jack Bauer, starting from 00:00 to 23:59.
 */
-void jack_bower(void)
+void jack_bauer(void)
 {
 int hour, minute;
 
