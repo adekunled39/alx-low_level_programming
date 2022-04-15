@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 /**
 * main - pints fizz for int divisible by 3 and Buzz for 5
 *
