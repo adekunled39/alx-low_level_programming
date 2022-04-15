@@ -2,6 +2,7 @@
 
 /**
 * print_square - prints hashtags to make a square
+* @size: limit
 *
 * Return: void
 */
