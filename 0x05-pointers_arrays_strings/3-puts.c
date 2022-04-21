@@ -1,17 +1,15 @@
-#include "main.h"                                                               
-
+#include "main.h"                                                        
 /**
-* _puts - prints a string
-* @str: pointer that will store the string's location
-* Return: nothing
+*_puts - prints a string
+*@str: pointer that will store the string's location
+*Return: nothing
 */
-
 void _puts(char *str)
-
 {
 while (*str != 0)
 {
 _putchar(*str);
-str++;										}
+str++;
+}
 _putchar(10);
 }
