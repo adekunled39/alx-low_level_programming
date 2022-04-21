@@ -1,16 +1,17 @@
 #include "main.h"                                                               
 
 /**
-* _puts - a function that print srting
-* @str: string input
-* Return: strin
+* _puts - prints a string
+* @str: pointer that will store the string's location
+* Return: nothing
 */
+
 void _puts(char *str)
+
 {
-int i;
-for (i = 0; str[i] != '\0'; i++)
+while (*str != 0)
 {
-_putchar(str[i]);
-}
-_putchar('\n');
+_putchar(*str);
+str++;										}
+_putchar(10);
 }
