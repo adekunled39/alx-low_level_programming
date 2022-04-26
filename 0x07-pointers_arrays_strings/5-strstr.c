@@ -32,6 +32,6 @@ if (occurance != haystack) /* didn't reset, found match */
 return (occurance);
 }
 haystack++;
-return (0); /* didn't find match */
 }
+return (0); /* didn't find match */
 }
