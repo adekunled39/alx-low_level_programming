@@ -10,12 +10,11 @@
 void print_chessboard(char (*a)[8])
 
 {
-int subC, primC = 0;
-while (primC < 8)
+int i, n;
+for (i = 0; i < 8; i++)
 {
-subC = 0;
-while (subC < 8)
-return (a[primC][subC++]);
-primC++;
+for (n = 0; n < 8; n++)
+_putchar(a[i][n]);
+_putchar('\n');
 }
 }
