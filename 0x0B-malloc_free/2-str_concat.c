@@ -28,7 +28,6 @@ b++;
 s = malloc((a * sizeof(char)) + ((b + 1) * sizeof(char)));
 if (s == NULL)
 return (NULL);
-
 /*add the first string to array s*/
 for (i = 0; s1[i] != '\0'; i++)
 s[i] = s1[i];
