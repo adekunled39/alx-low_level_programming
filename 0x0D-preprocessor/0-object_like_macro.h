@@ -1,3 +1,2 @@
-#include <stdio.h>
-int x=0;
+#include "dummy.c"
 #define SIZE 1024
