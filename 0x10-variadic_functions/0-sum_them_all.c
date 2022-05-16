@@ -1,7 +1,5 @@
 #include <stdio.h>
-
-#include <varargs.h>
-
+#include "variadic_functions.h"
 /**
 * sum_them_all - adds all its parameters
 * @n: start of input variables
