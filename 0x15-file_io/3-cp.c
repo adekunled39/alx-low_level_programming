@@ -1,7 +1,6 @@
+#include <stdio.h>
 #include "main.h"
-
 #define MAXSIZE 1024
-
 
 /**
  * __exit - prints error messages and exits with exit number
